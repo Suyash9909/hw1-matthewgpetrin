@@ -104,15 +104,15 @@ def dictionary():
     #   "fruit" => "apple"
     #   "quantity" => 18
     #   "color" => "red"
-    fruit_dict = {"fruit": "apple", "quantity": 18, "color": "red"}
+    fruit_dict = {'fruit': "apple", 'quantity': 18, 'color': "red"}
     
     # Get the item in dictionary fruit_dict that the key "fruit" maps to.
 
-    f = f["fruit"]
+    f = f['fruit']
 
     # Increase the value that key "quantity" map to by 1.
 
-    f["quantity"] += 1
+    f['quantity'] += 1
 
     return fruit_dict, f
 def dictionary_nested():
@@ -121,13 +121,13 @@ def dictionary_nested():
     #   "jobs" => ["scientist", "engineer"] (a list)
     #   "age" => 85
 
-    Grace = {"name": {"first_name": "Grace", "last_name": "Hopper"},
-             "jobs": ["scientist", "engineer"],
-             "age": 85}
+    Grace = {'name': {'first_name': "Grace", "last_name": "Hopper"},
+             'jobs': ["scientist", "engineer"],
+             'age': 85}
 
     # Get the value of key "last_name" from the subdictionary of key "name" in dictionary Grace. (aka."Hopper")
 
-    last_name = Grace["name"]["last_name"]
+    last_name = Grace['name']['last_name']
 
     # Add "programmer" to the list that key "jobs" maps to.
 
