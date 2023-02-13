@@ -108,7 +108,7 @@ def dictionary():
     
     # Get the item in dictionary fruit_dict that the key "fruit" maps to.
 
-    f = f['fruit']
+    f = fruit_dict['fruit']
 
     # Increase the value that key "quantity" map to by 1.
 
