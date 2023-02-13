@@ -64,7 +64,7 @@ def list_1D():
 
     # Inplace sort list l (use .sort() ).
 
-    l = l.sort()
+    l.sort()
 
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
