@@ -112,7 +112,7 @@ def dictionary():
 
     # Increase the value that key "quantity" map to by 1.
 
-    f['quantity'] += 1
+    fruit_dict['quantity'] += 1
 
     return fruit_dict, f
 def dictionary_nested():
